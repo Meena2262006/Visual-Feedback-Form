@@ -1,0 +1,42 @@
+body {
+  font-family: Arial;
+  background: #f4f4f4;
+}
+
+.container {
+  width: 300px;
+  margin: 50px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+/* ✅ Visual Feedback */
+input.success {
+  border-color: green;
+}
+
+input.error {
+  border-color: red;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: blue;
+  color: white;
+  border: none;
+}
+
+#message {
+  margin-top: 10px;
+  font-weight: bold;
+}
